@@ -13,3 +13,12 @@ You must design a ticketing system that accommodates future departments in a way
 ### Goal
 
 Leverage Spring Boot's inversion of control in order to design a system that achieves code reusability in a way that complies with the Open - Closed principle.
+
+### API Documentation
+
+**URL:** https://localhost:8080/v1/tickets?department-name=text&message=text
+
+- department-name: either "Information Technology" or "Software Development"
+- message: any text value
+
+**Request Method:** POST
